@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tables</title>
+        <!-- <link rel="stylesheet" href="css/reset.css"/> -->
+        <style>
+            /* 1 */
+            table {
+                border-collapse: collapse;
+            }
+            /* 1 */
+            table,
+            td {
+                border: 0;
+                border-spacing: 0;
+                padding: 0;
+            }
+            /* 2 */
+            table img {
+                vertical-align: middle;
+            }
+            /* 11 */
+            table.sheep {
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>    
+        <ul>
+            <li>
+                <a href="example/index.html">
+                    Table - example
+                </a>
+            </li>
+            <li>
+                <a href="example/pages/page.html">
+                    About classes
+                </a>
+            </li>
+        </ul>
+        <!-- puzzle assembly WORLD -->
+        <table class="world">
+            <tr class="world__row">
+                <td class="world__item">
+                    <img src="images/world/2.jpg" alt="bird on the tree">
+                </td>
+                <td class="world__item">
+                    <img src="images/world/3.jpg" alt="girl and giraffe head">
+                </td>
+            </tr>
+            <tr class="world__row">
+                <td colspan="2" class="world__item">
+                    <img src="images/world/1.jpg" alt="two boys and elephant">
+                </td>
+            </tr>
+        </table>
+        <!-- puzzle assembly ELEPPHANT -->
+        <table class="elephant">
+            <tr class="elephant__row">
+                <td rowspan="2" class="elephant__item">
+                    <img src="images/elephant/1.jpg" alt="elephant head and worm head">
+                </td>
+                <td rowspan="2" class="elephant__item">
+                    <img src="images/elephant/2.png" alt="elephant body">
+                </td>
+        </table>
+        <!-- puzzle assembly SHEEP -->
+        <table class="sheep">
+            <tr class="sheep__row">
+                <td class="sheep__item">
+                    <img src="images/sheep/1.jpg" alt="sheep eyes">
+                </td>
+                <td class="sheep__item">
+                    <img src="images/sheep/2.jpg" alt="sheep back">
+                </td>
+            </tr>
+            <tr class="sheep__row">
+                <td class="sheep__item">
+                    <img src="images/sheep/4.jpg" alt="sheep nose">
+                </td>
+                <td class="sheep__item">
+                    <img src="images/sheep/3.jpg" alt="sheep feet">
+                </td>
+            </tr>
+        </table>
+        <!-- puzzle assembly CAT -->
+        <table class="cat">
+            <tr class="cat__row">
+                <td rowspan="2" class="cat__item">
+                    <img src="images/cat/cat_01.jpg" alt="right ear of cat and mouse">
+                </td>
+                <td rowspan="2" class="cat__item">
+                    <img src="images/cat/cat_02.png" alt="left ear of cat and mouse">
+                </td>
+                <td class="cat__item">
+                    <img src="images/cat/cat_03.png" alt="mouse face">
+                </td>
+            </tr>
+            <tr class="cat__row">
+                <td rowspan="2" class="cat__item">
+                    <img src="images/cat/cat_04.png" alt="mouse tail and cat tail">
+                </td>
+            </tr>
+            <tr class="cat__row">
+                <td colspan="2" class="cat__item">
+                    <img src="images/cat/cat_05.png" alt="cat eyes and nose">
+                </td>
+            </tr>
+            <tr class="cat__row">
+                <td class="cat__item">
+                    <img src="images/cat/cat_06.png" alt="cat whiskers on the right">
+                </td>
+                <td colspan="2" class="cat__item">
+                    <img src="images/cat/cat_07.png" alt="cat whiskers on the left">
+                </td>
+            </tr>
+        </table>
+        <!-- puzzle assembly DOG -->
+        <table class="dog">
+            <tr class="dog__row">
+                <td class="dog__item">
+                    <img src="images/dog/ulybaka_01.jpg" alt="dog's right eye">
+                </td>
+                <td rowspan="3" class="dog__item">
+                    <img src="images/dog/ulybaka_02.jpg" alt="dog's left eye and teeth">
+                </td>
+                <td class="dog__item">
+                    <img src="images/dog/ulybaka_03.jpg" alt="dog's left ear">
+                </td>
+            </tr>
+            <tr class="dog__row">
+                <td rowspan="3" class="dog__item">
+                    <img src="images/dog/ulybaka_04.jpg" alt="right dog nose and teeth">
+                </td>
+                <td class="dog__item">
+                    <img src="images/dog/ulybaka_05.jpg" alt="dog tail">
+                </td>
+            </tr>
+             <tr class="dog__row">
+                <td class="dog__item">
+                    <img src="images/dog/ulybaka_06.jpg" alt="back left paw of a dog">
+                </td>
+            </tr>
+            <tr class="dog__row">
+                <td colspan="2" class="dog__item">
+                    <img src="images/dog/ulybaka_07.jpg" alt="dog front paws">
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
