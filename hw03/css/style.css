@@ -11,6 +11,8 @@
     height: 100px;
     border: 1px solid black;
     float: left;
+    line-height: 100px;
+    text-align: center;
 }
 /* 30 */
 .wrapper .wrapper__line .wrapper__item--board_marking {
@@ -27,6 +29,7 @@
 }
 /* 31 */
 .wrapper .wrapper__line .wrapper__item img {
-    padding: 5%;
+    /* padding: 5%; */
     width: 90%;
+    vertical-align: middle;
 }
