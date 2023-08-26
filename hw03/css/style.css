@@ -18,8 +18,8 @@
 .wrapper .wrapper__line .wrapper__item--board_marking {
     background-color: rgba(0, 0, 0, 0.15);
     border: 1px solid black;
-    line-height: 100px;
     font-size: 40px;
+    line-height: 100px;
     text-align: center;
 }
 /* 30 */
@@ -29,7 +29,6 @@
 }
 /* 31 */
 .wrapper .wrapper__line .wrapper__item img {
-    /* padding: 5%; */
-    width: 90%;
+    width: 70%;
     vertical-align: middle;
 }
