@@ -22,7 +22,7 @@ body {
 .header,
 .main,
 .footer {
-	padding: 0 50px;
+	padding: 0 4%;
 }
 /* 10 */
 .header__heading {
@@ -99,18 +99,21 @@ body {
 .footer {
 	width: 79%;
 	margin-top: 35px;
-	margin-left: 50px;
-	padding-top: 7px;
-	padding-bottom: 6px;
+	/* Поки не знаю чому не спрацьовує padding: 4% в 25 рядку, тому пока margin-left: 4%; */
+	margin-left: 4%;
 	background-image: url(../images/back.gif);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
+	
 }
 /* 10 */
 .footer__item {
 	color: #403636;
 	text-align: center;
+	background-color: #FFF;
+	display:inline-block;
+	margin-left: 34%;
 }
 /* 10 */
 .footer__item--modtext {
