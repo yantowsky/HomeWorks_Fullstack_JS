@@ -6,12 +6,6 @@ body {
     padding: 10px;
     font-family: 'Jura', sans-serif;
 }
-.wrapper-intro__img {
-    background: url(../images/backgrounds/intro.jpg) #000 fixed no-repeat center;
-}
-.wrapper-required__img {
-    background: url(../images/backgrounds/required.jpg) #000 fixed no-repeat center;
-}
 
 .wrapper {
     color: #fff;
@@ -21,6 +15,12 @@ body {
     height: 97vh;
     position: relative;
     font-size: 1.2rem;
+}
+.wrapper-intro__img {
+    background: url(../images/backgrounds/intro.jpg) #000 fixed no-repeat center;
+}
+.wrapper-authorization__img {
+    background: url(../images/backgrounds/required.jpg) #000 fixed no-repeat center;
 }
 
 .header__heading {
