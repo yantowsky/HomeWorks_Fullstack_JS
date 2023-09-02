@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&family=Tourney:ital@0;1&display=swap');
+
+body {
+    background-color: rgb(71, 71, 71);
+    background: url(../images/backgrounds/carbon.jpg);
+    padding: 10px;
+    font-family: 'Jura', sans-serif;
+}
+.wrapper-intro__img {
+    background: url(../images/backgrounds/intro.jpg) #000 fixed no-repeat center;
+}
+.wrapper-required__img {
+    
+}
+
+.wrapper {
+    color: #fff;
+    background-size: cover;
+    border: 3px solid #818181;
+    border-radius: 15px;
+    height: 97vh;
+    position: relative;
+    font-size: 1.2rem;
+}
+
+.header__heading {
+    background-image: url(../images/backgrounds/carbon.jpg);
+    margin: 3vh 35%;
+    padding: 8px;
+    border: 3px solid #818181;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    position: absolute;
+}
+
+.header__paragraph {
+    background-image: url(../images/backgrounds/carbon.jpg);
+    padding: 8px;
+    border: 3px solid #818181;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    margin: 25vh 10%;
+    text-align: center;
+    position: absolute;
+
+}
+
+.nav__block {
+    background-image: url(../images/backgrounds/carbon.jpg);
+    padding: 8px 15px;
+    border: 3px solid #818181;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    margin: 60vh 25%;
+    text-align: center;
+    position: relative;
+}
+
+.nav-auto {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.nav-reg {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.modtext {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: 'Tourney', cursive;
+    font-style: italic;
+    vertical-align: middle;
+}
+
+.footer {
+    color: #fff;
+    margin: 1vh 27%;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
