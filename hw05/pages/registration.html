@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration</title>
+    <title>Регістрація</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    
+    <div class="wrapper wrapper-registration__img">
+        <form class="form" method="POST" action="https://fom.in.ua/echo">
+            <fieldset>
+                <legend>Регістрація</legend>
+                <br>
+                <p>
+                    <label for="email">
+                        E-mail
+                    </label>
+                </p>
+                <p>
+                    <input type="email" name="email" placeholder="user@domain.com" required="required" />
+                </p>
+                <p>
+                    <label for="password">
+                        Пароль
+                    </label>
+                </p>
+                <p>
+                    <input type="password" name="pwd" required="required" />
+                </p>
+            </fieldset>
+            <p>
+                <br>
+                <input type="submit" value="Відправити" />
+            </p>
+        </form>
+        <div class="search__link">
+            <a href="../pages/search.html">Перейти на сторінку пошуку автомобіля</a>
+        </div>
+        <div class="intro__link">
+            <a href="../index.html">Повернутися на головну сторінку сайта</a>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__line">
+            <p class="footer__item">
+                2023 by Eugene Yantowsky - Design for Serge Nikiforov
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

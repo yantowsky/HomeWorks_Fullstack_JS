@@ -7,6 +7,15 @@ body {
     font-family: 'Jura', sans-serif;
 }
 
+.wrapper-intro__img {
+    background: url(../images/backgrounds/intro.jpg) #000 fixed no-repeat center;
+}
+.wrapper-authorization__img {
+    background: url(../images/backgrounds/authorization.jpg) #000 fixed no-repeat center;
+}
+.wrapper-registration__img {
+    background: url(../images/backgrounds/registration.jpg) #000 fixed no-repeat center;
+}
 .wrapper {
     color: #fff;
     background-size: cover;
@@ -15,12 +24,6 @@ body {
     height: 97vh;
     position: relative;
     font-size: 1.2rem;
-}
-.wrapper-intro__img {
-    background: url(../images/backgrounds/intro.jpg) #000 fixed no-repeat center;
-}
-.wrapper-authorization__img {
-    background: url(../images/backgrounds/authorization.jpg) #000 fixed no-repeat center;
 }
 
 .header__heading {
@@ -95,6 +98,16 @@ body {
     width: auto;
     height: auto;
     margin: 2vh 1%;
+    position: absolute;
+}
+.registration__link {
+    background-image: url(../images/backgrounds/carbon.jpg);
+    padding: 15px 15px;
+    border: 3px solid #818181;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    margin: 66vh 1%;
     position: absolute;
 }
 .search__link {
