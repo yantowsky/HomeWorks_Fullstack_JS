@@ -20,7 +20,7 @@ body {
     background: url(../images/backgrounds/intro.jpg) #000 fixed no-repeat center;
 }
 .wrapper-authorization__img {
-    background: url(../images/backgrounds/required.jpg) #000 fixed no-repeat center;
+    background: url(../images/backgrounds/authorization.jpg) #000 fixed no-repeat center;
 }
 
 .header__heading {
