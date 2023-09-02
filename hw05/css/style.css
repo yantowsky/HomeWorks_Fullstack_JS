@@ -100,6 +100,16 @@ body {
     margin: 2vh 1%;
     position: absolute;
 }
+.authorization__link {
+    background-image: url(../images/backgrounds/carbon.jpg);
+    padding: 15px 15px;
+    border: 3px solid #818181;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    margin: 66vh 1%;
+    position: absolute;
+}
 .registration__link {
     background-image: url(../images/backgrounds/carbon.jpg);
     padding: 15px 15px;
