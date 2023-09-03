@@ -101,18 +101,10 @@ body {
     height: auto;
     margin: 60vh 25%;
     text-align: center;
-    position: relative;
 }
 
 /* 10 */
-.nav-auto {
-    text-transform: uppercase;
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-
-/* 10 */
-.nav-reg {
+.nav__link {
     text-transform: uppercase;
     font-size: 1.3rem;
     font-weight: bold;
