@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Авторизація</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
-    
+    <div class="wrapper wrapper-search__img">
+        <form class="search element__form" method="POST" action="https://fom.in.ua/echo">
+
+            <label for="body_type">
+                Тип кузову
+            </label>
+            <select name="body_type">
+                <option value="body_type1">Седан</option>
+                <option value="body_type2">Купе</option>
+                <option value="body_type3">Кабріолет</option>
+                <option value="body_type4">Родстер</option>
+            </select>
+
+            <label for="car_brand">
+                Марка авто
+            </label>
+            <select name="car_brande">
+                <option value="car_brand1">Седан</option>
+                <option value="car_brand2">Купе</option>
+                <option value="car_brand3">Кабріолет</option>
+                <option value="car_brand4">Родстер</option>
+            </select>
+
+
+        </form>
+        <div class="registration__link">
+            <a href="../pages/registration.html">Перейти на сторінку регістрації клієнта</a>
+        </div>
+        <div class="search__link">
+            <a href="../pages/search.html">Перейти на сторінку пошуку автомобіля</a>
+        </div>
+        <div class="intro__link">
+            <a href="../index.html">Повернутися на головну сторінку сайта</a>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__line">
+            <p class="footer__item">
+                2023 by Eugene Yantowsky - Design for Serge Nikiforov
+            </p>
+        </div>
+    </footer>
 </body>
+
 </html>

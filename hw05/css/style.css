@@ -16,6 +16,9 @@ body {
 .wrapper-registration__img {
     background: url(../images/backgrounds/registration.jpg) #000 fixed no-repeat center;
 }
+.wrapper-search__img {
+    background: url(../images/backgrounds/search.jpg) #000 fixed no-repeat center;
+}
 .wrapper {
     color: #fff;
     background-size: cover;
@@ -90,7 +93,7 @@ body {
     height: auto;
     text-align: center;
 }
-.form {
+.element__form {
     background-image: url(../images/backgrounds/carbon.jpg);
     padding: 8px 15px;
     border: 3px solid #818181;
