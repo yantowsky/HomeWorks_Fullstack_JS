@@ -4,44 +4,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Авторизація</title>
+    <title>Пошук автомобіля</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <div class="wrapper wrapper-search__img">
-        <form class="search element__form" method="POST" action="https://fom.in.ua/echo">
-
-            <label for="body_type">
-                Тип кузову
-            </label>
-            <select name="body_type">
-                <option value="body_type1">Седан</option>
-                <option value="body_type2">Купе</option>
-                <option value="body_type3">Кабріолет</option>
-                <option value="body_type4">Родстер</option>
-            </select>
-
-            <label for="car_brand">
-                Марка авто
-            </label>
-            <select name="car_brande">
-                <option value="car_brand1">Седан</option>
-                <option value="car_brand2">Купе</option>
-                <option value="car_brand3">Кабріолет</option>
-                <option value="car_brand4">Родстер</option>
-            </select>
-
-
+        <form class="search" method="POST" action="https://fom.in.ua/echo">
+            <div class="body_type element__form">
+                <label for="body_type">
+                    Тип кузову:
+                </label>
+                <select name="body_type">
+                    <option value="sedan">
+                        Седан
+                    </option>
+                    <option value="coupe">
+                        Купе
+                    </option>
+                    <option value="cabriolet">
+                        Кабріолет
+                    </option>
+                    <option value="roadster">
+                        Родстер
+                    </option>
+                </select>
+            </div>
+            <div class="car_brand element__form">
+                <label for="car_brand">
+                    Марка авто:
+                </label>
+                <select name="car_brand">
+                    <option value="shelby_gt350">
+                        Shelby GT350
+                    </option>
+                    <option value="chevrolet_corvette">
+                        Chevrolet Corvette
+                    </option>
+                    <option value="ford_mustang">
+                        Ford Mustang
+                    </option>
+                    <option value="pontiac_gto">
+                        Pontiac GTO
+                    </option>
+                    <option value="pontiac_firebird">
+                        Pontiac Firebird
+                    </option>
+                    <option value="dodge_charger">
+                        Dodge Charger
+                    </option>
+                    <option value="dodge_viper">
+                        Dodge Viper
+                    </option>
+                    <option value="chevelle_ss">
+                        Chevelle SS
+                    </option>
+                    <option value="buick_grand_national">
+                        Buick Grand National
+                    </option>
+                    <option value="plymouth_road_runner">
+                        Plymouth Road Runner
+                    </option>
+                </select>
+            </div>
+            <div class="prod_country element__form">
+                <label for="prod_country">
+                    Країна виробник:
+                </label>
+                <select name="prod_country">
+                    <option value="USA">
+                        США
+                    </option>
+                    <option value="Australia">
+                        Австралія
+                    </option>
+                </select>
+            </div>
+            <div class="price element__form">
+                <label for="min_price">
+                    Ціна ($). Мін:
+                </label>
+                <input type="number" name="min_price" step="1000" min="30000" max="100000" value="30000" />
+                <label for="max_price">
+                    Макс:
+                </label>
+                <input type="number" name="max_price" step="1000" min="30000" max="100000" value="100000" />
+            </div>
+            <div class="prod_year element__form">
+                <label for="from_year">
+                    Рік випуску: від
+                </label>
+                <input type="number" name="from_year" step="1" min="1964" max="1975" value="1964" />
+                <label for="to_year">
+                    до
+                </label>
+                <input type="number" name="to_year" step="1" min="1964" max="1975" value="1975" />
+            </div>
+            <div class="fuel_type element__form">
+                Тип бензину:
+                <label for="fuel_type1">
+                    A95
+                </label>
+                <input type="radio" checked="checked" name="fuel_type1" />
+                <label for="fuel_type1">
+                    A98
+                </label>
+                <input type="radio" name="fuel_type1" />
+                <label for="fuel_type1">
+                    A100
+                </label>
+                <input type="radio" name="fuel_type1" />
+            </div>
+            <div class="transmission_type element__form">
+                <label for="transmission_type">
+                    Тип коробки передач:
+                </label>
+                <select name="transmission_type">
+                    <option value="mechanical">
+                        механічна
+                    </option>
+                    <option value="automatic">
+                        автоматична
+                    </option>
+                    <option value="variable_speed_drive">
+                        варіатор
+                    </option>
+                    <option value="without_gearbox">
+                        без коробки передач
+                    </option>
+                </select>
+            </div>
+            <div class="color_type element__form">
+                <label for="color_type">
+                    Колір авто:
+                </label>
+                <input type="color" name="color_type" />
+            </div>
+            <div class="comfort element__form">
+                Комфорт:
+                <select multiple="multiple" name="comfort">
+                    <option value="panoramic_sunroof">Панорамний люк</option>
+                    <option value="air_conditioner">Кондиціонер</option>
+                    <option value="multimedia_system">Сучасна мультимедійна система</option>
+                    <option value="security_system">Охоронна система</option>
+                    <option value="led_headlights">Світодіодні фари</option>
+                </select>
+            </div>
+            <div class="condition element__form">
+                Стан:
+                <input type="checkbox" checked="checked" name="condition1" />
+                <label for="condition1">
+                    "Не бита, не крашена"
+                </label>
+                <input type="checkbox" name="condition2" />
+                <label for="condition2">
+                    Один власник
+                </label>
+                <input type="checkbox" name="condition3" />
+                <label for="condition3">
+                    Пробіг не змотан
+                </label>
+                <input type="checkbox" name="condition4" />
+                <label for="condition4">
+                    Як нова
+                </label>
+                <input type="checkbox" name="condition5" />
+                <label for="condition5">
+                    Обслуговувалась у офіціалів
+                </label>
+            </div>
+            <p>
+            <div class="search__button element__form">
+                <input type="submit" name="search" value="Пошук вибранного автомобіля" />
+            </div>
+            <div class="reset__button element__form">
+                <input type="reset" name="reset" value="Скинути данні по автомобілю" />
+            </div>
+            </p>
         </form>
-        <div class="registration__link">
+        <div class="authorization block__link left bottom">
+            <a href="../pages/authorization.html">Перейти на сторінку авторизації клієнта</a>
+        </div>
+        <div class="registration block__link center bottom">
             <a href="../pages/registration.html">Перейти на сторінку регістрації клієнта</a>
         </div>
-        <div class="search__link">
-            <a href="../pages/search.html">Перейти на сторінку пошуку автомобіля</a>
-        </div>
-        <div class="intro__link">
+        <div class="index block__link right bottom">
             <a href="../index.html">Повернутися на головну сторінку сайта</a>
         </div>
     </div>

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura&family=Tourney:ital@0;1&display=swap');
 
+/* 1 */
 body {
     background-color: rgb(71, 71, 71);
     background: url(../images/backgrounds/carbon.jpg);
@@ -7,18 +8,27 @@ body {
     font-family: 'Jura', sans-serif;
 }
 
+/* 10 */
 .wrapper-intro__img {
     background: url(../images/backgrounds/intro.jpg) #000 fixed no-repeat center;
 }
+
+/* 10 */
 .wrapper-authorization__img {
     background: url(../images/backgrounds/authorization.jpg) #000 fixed no-repeat center;
 }
+
+/* 10 */
 .wrapper-registration__img {
     background: url(../images/backgrounds/registration.jpg) #000 fixed no-repeat center;
 }
+
+/* 10 */
 .wrapper-search__img {
     background: url(../images/backgrounds/search.jpg) #000 fixed no-repeat center;
 }
+
+/* 10 */
 .wrapper {
     color: #fff;
     background-size: cover;
@@ -29,6 +39,32 @@ body {
     font-size: 1.2rem;
 }
 
+/* 10 */
+.left {
+    left: 0;
+}
+
+/* 10 */
+.right {
+    right: 0;
+}
+
+/* 10 */
+.center {
+    left: 35%;
+}
+
+/* 10 */
+.middle {
+    top: 50%;
+}
+
+/* 10 */
+.bottom {
+    bottom: 0;
+}
+
+/* 10 */
 .header__heading {
     background-image: url(../images/backgrounds/carbon.jpg);
     margin: 3vh 35%;
@@ -41,6 +77,7 @@ body {
     position: absolute;
 }
 
+/* 10 */
 .header__paragraph {
     background-image: url(../images/backgrounds/carbon.jpg);
     padding: 8px;
@@ -54,6 +91,7 @@ body {
 
 }
 
+/* 10 */
 .nav__block {
     background-image: url(../images/backgrounds/carbon.jpg);
     padding: 8px 15px;
@@ -66,18 +104,21 @@ body {
     position: relative;
 }
 
+/* 10 */
 .nav-auto {
     text-transform: uppercase;
     font-size: 1.3rem;
     font-weight: bold;
 }
 
+/* 10 */
 .nav-reg {
     text-transform: uppercase;
     font-size: 1.3rem;
     font-weight: bold;
 }
 
+/* 10 */
 .modtext {
     text-transform: uppercase;
     font-size: 2rem;
@@ -86,60 +127,37 @@ body {
     vertical-align: middle;
 }
 
+/* 10 */
 .footer {
     color: #fff;
     margin: 1vh 27%;
     width: auto;
     height: auto;
     text-align: center;
+    display: block;
 }
+
+/* 10 */
 .element__form {
     background-image: url(../images/backgrounds/carbon.jpg);
     padding: 8px 15px;
     border: 3px solid #818181;
     border-radius: 15px;
-    width: auto;
+    width: fit-content;
     height: auto;
-    margin: 2vh 1%;
-    position: absolute;
+    margin: 1%;
+    display: inline-table;
+    /* position: absolute; */
 }
-.authorization__link {
+
+/* 10 */
+.block__link {
     background-image: url(../images/backgrounds/carbon.jpg);
     padding: 15px 15px;
     border: 3px solid #818181;
     border-radius: 15px;
-    width: auto;
+    width: fit-content;
     height: auto;
-    margin: 66vh 1%;
-    position: absolute;
-}
-.registration__link {
-    background-image: url(../images/backgrounds/carbon.jpg);
-    padding: 15px 15px;
-    border: 3px solid #818181;
-    border-radius: 15px;
-    width: auto;
-    height: auto;
-    margin: 66vh 1%;
-    position: absolute;
-}
-.search__link {
-    background-image: url(../images/backgrounds/carbon.jpg);
-    padding: 15px 15px;
-    border: 3px solid #818181;
-    border-radius: 15px;
-    width: auto;
-    height: auto;
-    margin: 76vh 1%;
-    position: absolute;
-}
-.intro__link {
-    background-image: url(../images/backgrounds/carbon.jpg);
-    padding: 15px 15px;
-    border: 3px solid #818181;
-    border-radius: 15px;
-    width: auto;
-    height: auto;
-    margin: 86vh 1%;
+    margin: 1%;
     position: absolute;
 }
