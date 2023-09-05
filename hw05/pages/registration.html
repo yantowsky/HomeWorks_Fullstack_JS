@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
     <div class="wrapper wrapper-registration__img">
         <form class="registration element__form" method="POST" action="https://fom.in.ua/echo">
@@ -19,7 +21,8 @@
                     E-mail
                 </p>
                 <p>
-                    <input type="email" name="email" placeholder="user@domain.com" autofocus="autofocus" required="required" />
+                    <input type="email" name="email" placeholder="user@domain.com" autofocus="autofocus"
+                        required="required" />
                 </p>
                 <p>
                     Пароль
@@ -39,20 +42,28 @@
                 <input type="submit" value="Відправити" />
             </p>
         </form>
-        <div class="authorization block__link left bottom">
-            <a href="../pages/authorization.html">
-                Перейти на сторінку авторизації клієнта
-            </a>
-        </div>
-        <div class="search block__link center bottom">
-            <a href="../pages/search.html">
-                Перейти на сторінку пошуку автомобіля
-            </a>
-        </div>
-        <div class="index block__link right bottom">
-            <a href="../index.html">
-                Повернутися на головну сторінку сайта
-            </a>
+        <div class="menu__links">
+
+            <div class="authorization block__link top_link">
+                <a href="../pages/authorization.html">
+                    Aвторизації клієнта
+                </a>
+            </div>
+            <div class="search block__link top_link">
+                <a href="../pages/search.html">
+                    Замовлення автомобіля
+                </a>
+            </div>
+            <div class="available block__link top_link">
+                <a href="../pages/available.html">
+                    Автомобілі в наявності
+                </a>
+            </div>
+            <div class="index block__link top_link">
+                <a href="../index.html">
+                    Головна сторінка сайту
+                </a>
+            </div>
         </div>
     </div>
     <footer class="footer">
@@ -63,4 +74,5 @@
         </div>
     </footer>
 </body>
+
 </html>

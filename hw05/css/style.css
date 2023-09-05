@@ -29,39 +29,19 @@ body {
 }
 
 /* 10 */
+.wrapper-available__img {
+    background: url(../images/backgrounds/available.jpg) #000 fixed no-repeat center;
+}
+
+/* 10 */
 .wrapper {
     color: #fff;
     background-size: cover;
     border: 3px solid #818181;
     border-radius: 15px;
     height: 97vh;
-    position: relative;
+    /* position: relative; */
     font-size: 1.2rem;
-}
-
-/* 10 */
-.left {
-    left: 0;
-}
-
-/* 10 */
-.right {
-    right: 0;
-}
-
-/* 10 */
-.center {
-    left: 35%;
-}
-
-/* 10 */
-.middle {
-    top: 50%;
-}
-
-/* 10 */
-.bottom {
-    bottom: 0;
 }
 
 /* 10 */
@@ -99,9 +79,9 @@ body {
     border-radius: 15px;
     width: auto;
     height: auto;
-    margin: 60vh 25%;
+    margin: 55vh 25%;
+    line-height: 1.6rem;
     text-align: center;
-    position: relative;
 }
 
 /* 10 */
@@ -140,16 +120,46 @@ body {
     height: auto;
     margin: 1%;
     display: inline-table;
+    /* position: absolute; */
+}
+
+/* 10 */
+.top_link {
+    top: 86vh;
+}
+
+/* 10 */
+.registration--spec {
+    left: 25%;
+}
+
+/* 10 */
+.search {
+    left: 25%;
+}
+
+/* 10 */
+.available {
+    left: 50%;
+}
+.search--spec {
+    left: 50%;
+}
+
+/* 10 */
+.index {
+    left: 75%;
 }
 
 /* 10 */
 .block__link {
     background-image: url(../images/backgrounds/carbon.jpg);
-    padding: 15px 15px;
+    padding: 10px;
     border: 3px solid #818181;
     border-radius: 15px;
-    width: fit-content;
-    height: auto;
+    width: 22%;
+    height: fit-content;
     margin: 1%;
+    text-align: center;
     position: absolute;
 }
