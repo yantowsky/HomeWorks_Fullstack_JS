@@ -47,7 +47,7 @@ body {
 /* 10 */
 .header__heading {
     background-image: url(../images/backgrounds/carbon.jpg);
-    margin: 3vh 35%;
+    margin: 50px 35%;
     padding: 8px;
     border: 3px solid #818181;
     border-radius: 15px;
@@ -65,7 +65,7 @@ body {
     border-radius: 15px;
     width: auto;
     height: auto;
-    margin: 25vh 10%;
+    margin: 320px 10%;
     text-align: center;
     position: absolute;
 
@@ -79,7 +79,7 @@ body {
     border-radius: 15px;
     width: auto;
     height: auto;
-    margin: 55vh 25%;
+    margin: 650px 25%;
     line-height: 1.6rem;
     text-align: center;
 }
@@ -176,7 +176,7 @@ body {
 /* 10 */
 .footer {
     color: #fff;
-    margin: 1vh 27%;
+    margin: 15px 27%;
     width: auto;
     height: auto;
     text-align: center;
