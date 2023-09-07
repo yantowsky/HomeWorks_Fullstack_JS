@@ -13,7 +13,10 @@ input,
 select {
     padding: 3px;
 }
-
+/* 1 */
+fieldset {
+    line-height: 1.6rem;
+}
 /* 10 */
 .wrapper-intro__img {
     background: url(../images/backgrounds/intro.jpg) #000 fixed no-repeat center;
