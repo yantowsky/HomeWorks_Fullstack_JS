@@ -51,8 +51,6 @@ body {
     padding: 8px;
     border: 3px solid #818181;
     border-radius: 15px;
-    width: auto;
-    height: auto;
     text-align: center;
     position: absolute;
 }
@@ -63,8 +61,6 @@ body {
     padding: 8px;
     border: 3px solid #818181;
     border-radius: 15px;
-    width: auto;
-    height: auto;
     margin: 320px 10%;
     text-align: center;
     position: absolute;
@@ -77,8 +73,6 @@ body {
     padding: 8px 15px;
     border: 3px solid #818181;
     border-radius: 15px;
-    width: auto;
-    height: auto;
     margin: 650px 25%;
     line-height: 1.6rem;
     text-align: center;
@@ -107,8 +101,6 @@ body {
     padding: 8px 15px;
     border: 3px solid #818181;
     border-radius: 15px;
-    width: fit-content;
-    height: auto;
     margin: 1%;
     display: inline-table;
 }
@@ -149,7 +141,6 @@ body {
     border: 3px solid #818181;
     border-radius: 15px;
     width: 22%;
-    height: fit-content;
     margin: 1%;
     text-align: center;
     position: absolute;
@@ -160,7 +151,6 @@ body {
     background-image: url(../images/backgrounds/carbon.jpg);
     margin: 15px 0 0 18px;
     width: 48%;
-    height: fit-content;
     border: 3px solid #818181;
     border-radius: 15px;
     display: inline-block;
@@ -177,8 +167,6 @@ body {
 .footer {
     color: #fff;
     margin: 15px 27%;
-    width: auto;
-    height: auto;
     text-align: center;
 }
 
