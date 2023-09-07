@@ -8,6 +8,12 @@ body {
     font-family: 'Jura', sans-serif;
 }
 
+/* 1 */
+input,
+select {
+    padding: 3px;
+}
+
 /* 10 */
 .wrapper-intro__img {
     background: url(../images/backgrounds/intro.jpg) #000 fixed no-repeat center;
