@@ -1,10 +1,15 @@
+// позиціїнювання елемента cont-banner-text в banner
 .banner {
     @include flex (row, space-between, center);
+
+    //розмір та приоритетність в розміщенні зображення фона в banner
     img.banner {
         width: 100%;
         position: relative;
         z-index: 1;
     }
+
+    //стилистика елементів в cont-banner-text (розмір, розміщення елементів, відступ між елементами, внутрішній відступ від лівого краю, колір шрифта елементіва, приоритетність позиціювання)
     .cont-banner-text {
         width: 36%;
         @include flex(column, flex-start, flex-start);
@@ -13,22 +18,26 @@
         color: $main-color;
         position: absolute;
         z-index: 2;
-        
-        .banner-text {
-            font-size: $accent-fs;
-            line-height: 20px;
-        }
-    
+
+        //розмір та вага шрифта заголовка в елементі cont-banner-text
         .banner__heading {
             font-size: 2.75rem;
             font-weight: 700;
         }
-    
+
+        //розмір шрифта та відступ між строками загального тексту в елементі cont-banner-text
+        .banner-text {
+            font-size: $accent-fs;
+            line-height: 20px;
+        }
+
+        //індивідуальна стилистика кнопки More (кольори фону, обромлення та шрифту)
         .card-btn {
             background-color: $accent-color;
             border-color: $main-color;
             color: $main-color;
         }
+        // дія кнопки More при активації (зміна кольору фону, обромлення та шрифту, відклюяення прозорості)
         .card-btn:active {
             background-color: $main-color;
             border-color: $accent-color;
@@ -37,4 +46,3 @@
         }
     }
 }
-

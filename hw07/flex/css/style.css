@@ -136,13 +136,13 @@ body {
   position: absolute;
   z-index: 2;
 }
-.banner .cont-banner-text .banner-text {
-  font-size: 0.875rem;
-  line-height: 20px;
-}
 .banner .cont-banner-text .banner__heading {
   font-size: 2.75rem;
   font-weight: 700;
+}
+.banner .cont-banner-text .banner-text {
+  font-size: 0.875rem;
+  line-height: 20px;
 }
 .banner .cont-banner-text .card-btn {
   background-color: #F13C6E;
