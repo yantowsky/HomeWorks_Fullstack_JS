@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  background-color: #EFEFEF;
+  font-weight: normal;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header::after,
+.sides::after,
+.goods::after,
+.card-main::after,
+.card-addition::after,
+.categories::after,
+.socials::after,
+.about::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn {
+  border-radius: 40px;
+  border: 2px solid;
+  text-align: center;
+  padding: 12px 0 13px;
+  width: 170px;
+  font-size: 0.875rem;
+}
+
+.nav {
+  display: inline-block;
+}
+
+.nav .nav__item {
+  float: left;
+}
+
+.nav .nav__item:hover {
+  text-decoration: underline;
+}
+
+.call {
+  float: right;
+}
+
+.call .call__link {
+  color: #000;
+}
+
+.call .call-btn {
+  margin: 20px 0 20px 40px;
+  background-color: #FFF;
+  color: #000;
+  border-color: #F13C6E;
+}
+
+.header {
+  background-color: #FFF;
+}
+
+.header .menu-top {
+  padding: 17px 0 16px;
+  background-color: #EFEFEF;
+  text-align: center;
+}
+
+.header .menu-top .nav__item {
+  padding: 0 15px 0;
+}
+
+.header .menu-top .nav__item .nav__link {
+  color: #333;
+  font-size: 0.875rem;
+}
+
+.header .sides {
+  padding: 20px 14.5%;
+  background-color: #FFF;
+}
+
+.header .sides .logo {
+  float: left;
+}
+
+.header .sides .logo .logo__link {
+  vertical-align: middle;
+}
+
+.header .sides .logo .logo-name {
+  vertical-align: middle;
+  padding-left: 20px;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 3.6px;
+  color: #F13C6E;
+  text-transform: uppercase;
+}
+
+.header .menu-second {
+  padding: 30px 0;
+  border-top: 1px solid #EFEFEF;
+  text-align: center;
+  background-color: #FFF;
+}
+
+.header .menu-second .nav__item {
+  padding: 0 20px 0;
+}
+
+.header .menu-second .nav__item .nav__link {
+  color: #000;
+}
+
+.banner .cont-banner-text {
+  position: absolute;
+  padding: 10% 0 0 14.5%;
+  width: 35%;
+  color: #FFF;
+}
+
+.banner .cont-banner-text .banner__heading {
+  margin-bottom: 30px;
+  font-size: 2.75rem;
+  font-weight: 700;
+}
+
+.banner .cont-banner-text .banner-text {
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
+.banner .cont-banner-text .card-btn {
+  margin-top: 30px;
+  display: block;
+  background-color: #F13C6E;
+  border-color: #FFF;
+  color: #FFF;
+}
+
+.banner .banner__img {
+  width: 100%;
+}
+
+.offers {
+  padding: 80px 14.5% 100px;
+  background-color: #EFEFEF;
+}
+
+.offers .offers__heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 38px;
+}
+
+.offers .goods__item {
+  float: right;
+  width: 22%;
+  background-color: #FFF;
+  text-align: center;
+  padding: 25px 3.4% 25px;
+  margin-left: 4%;
+}
+
+.offers .goods__item .item-img {
+  margin-bottom: 20px;
+}
+
+.offers .goods__item .item-name {
+  font-size: 0.875rem;
+  line-height: 19.688px;
+  margin-bottom: 20px;
+}
+
+.offers .goods__item .item-name .product {
+  color: #333;
+}
+
+.offers .goods__item .item-price {
+  font-size: 1.3125rem;
+  font-weight: 500;
+  letter-spacing: 1.05px;
+}
+
+.offers .goods__item .item-btn {
+  display: inline;
+  width: 75%;
+  padding: 9px 20%;
+  left: 50%;
+  margin-top: 20px;
+  background-color: #F13C6E;
+  color: #FFF;
+  font-size: 0.875rem;
+  letter-spacing: 0.7px;
+}
+
+.offers .goods__item:nth-child(4) {
+  margin: 0;
+}
+
+.card-container {
+  padding: 0 14.5%;
+}
+
+.card-container .card-main {
+  margin-bottom: 100px;
+}
+
+.card-container .card-main .card-body {
+  float: left;
+  width: 48%;
+  background-color: #F13C6E;
+  padding: 35px 0 35px 3%;
+}
+
+.card-container .card-main .card-body .text-container {
+  display: inline-block;
+  color: #FFF;
+  width: 48%;
+}
+
+.card-container .card-main .card-body .text-container .card__title {
+  display: block;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.card-container .card-main .card-body .text-container .card__text {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 19.688px;
+  width: 54%;
+  margin-bottom: 25px;
+}
+
+.card-container .card-main .card-body .text-container .card__input {
+  width: 100%;
+  padding: 9px 12%;
+  font-size: 0.875rem;
+  border-radius: 30px;
+  border: 2px solid #F13C6E;
+}
+
+.card-container .card-main .card-body .svg-container {
+  float: right;
+  width: 35%;
+  text-align: center;
+}
+
+.card-container .card-main .card-body .svg-container .svg-container__img {
+  width: 70%;
+}
+
+.card-container .card-main .card-body--mod {
+  float: right;
+  padding: 35px 3%;
+  margin-left: 3%;
+}
+
+.card-container .card-main .card-body--mod .card__button {
+  width: 75%;
+  padding: 9px 5%;
+  font-size: 0.875rem;
+  background-color: #F13C6E;
+  color: #FFF;
+  border-radius: 30px;
+  border: 2px solid #FFF;
+}
+
+.card-container .card-main .card-body--mod .svg-container--mod {
+  width: 50%;
+}
+
+.card-container .card-main .card-body--mod .svg-container--mod .svg-container__img {
+  width: 100%;
+}
+
+.card-container .card-addition {
+  background-color: #FFF;
+}
+
+.card-container .card-addition .card-item {
+  width: 25%;
+  float: left;
+  padding: 35px 5%;
+  border: 1px solid #EFEFEF;
+  text-align: center;
+}
+
+.card-container .card-addition .card-item .card-item img {
+  width: 100%;
+}
+
+.footer {
+  background-color: #FFF;
+}
+
+.footer .categories {
+  padding: 60px 14.5%;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.footer .categories .categories-card {
+  float: right;
+  width: 22%;
+  margin-left: 4%;
+}
+
+.footer .categories .categories-card .categories__heading {
+  width: 46%;
+  color: #000;
+  font-weight: 500;
+  line-height: 22.5px;
+  padding-bottom: 55px;
+}
+
+.footer .categories .categories-card .categories__link {
+  color: #828282;
+  line-height: 28px;
+  font-size: 0.75rem;
+}
+
+.footer .categories .categories-card .categories__item:hover {
+  text-decoration: underline;
+}
+
+.footer .categories .categories-card--mod {
+  margin-left: 0;
+}
+
+.footer .socials {
+  padding: 20px 14.5%;
+}
+
+.footer .socials .social__link {
+  float: left;
+  margin-top: 20px;
+  margin-right: 1.5%;
+}
+
+.footer .about {
+  background-color: #EFEFEF;
+  padding: 25px 14.5%;
+}
+
+.footer .about .rights {
+  float: left;
+}
+
+.footer .about .privacy {
+  float: right;
+}
+
+.footer .about .rights__link,
+.footer .about .privacy__link {
+  font-size: 0.75rem;
+  color: #828282;
+}
+
+/*# sourceMappingURL=style.css.map */
