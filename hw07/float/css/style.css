@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
 
+/* 1 */
 body {
   background-color: #EFEFEF;
   font-weight: normal;
@@ -9,6 +10,7 @@ body {
   line-height: normal;
 }
 
+/* 11 */
 .header::after,
 .sides::after,
 .goods::after,
@@ -22,6 +24,7 @@ body {
   clear: both;
 }
 
+/* 10 */
 .btn {
   border-radius: 40px;
   border: 2px solid;
@@ -31,26 +34,32 @@ body {
   font-size: 0.875rem;
 }
 
+/* 10 */
 .nav {
   display: inline-block;
 }
 
+/* 20 */
 .nav .nav__item {
   float: left;
 }
 
+/* 30 */
 .nav .nav__item:hover {
   text-decoration: underline;
 }
 
+/* 10 */
 .call {
   float: right;
 }
 
+/* 20 */
 .call .call__link {
   color: #000;
 }
 
+/* 20 */
 .call .call-btn {
   margin: 20px 0 20px 40px;
   background-color: #FFF;
@@ -58,38 +67,46 @@ body {
   border-color: #F13C6E;
 }
 
+/* 10 */
 .header {
   background-color: #FFF;
 }
 
+/* 20 */
 .header .menu-top {
   padding: 17px 0 16px;
   background-color: #EFEFEF;
   text-align: center;
 }
 
+/* 30 */
 .header .menu-top .nav__item {
   padding: 0 15px 0;
 }
 
+/* 40 */
 .header .menu-top .nav__item .nav__link {
   color: #333;
   font-size: 0.875rem;
 }
 
+/* 20 */
 .header .sides {
   padding: 20px 14.5%;
   background-color: #FFF;
 }
 
+/* 30 */
 .header .sides .logo {
   float: left;
 }
 
+/* 40 */
 .header .sides .logo .logo__link {
   vertical-align: middle;
 }
 
+/* 40 */
 .header .sides .logo .logo-name {
   vertical-align: middle;
   padding-left: 20px;
@@ -101,6 +118,7 @@ body {
   text-transform: uppercase;
 }
 
+/* 20 */
 .header .menu-second {
   padding: 30px 0;
   border-top: 1px solid #EFEFEF;
@@ -108,14 +126,17 @@ body {
   background-color: #FFF;
 }
 
+/* 30 */
 .header .menu-second .nav__item {
   padding: 0 20px 0;
 }
 
+/* 40 */
 .header .menu-second .nav__item .nav__link {
   color: #000;
 }
 
+/* 20 */
 .banner .cont-banner-text {
   position: absolute;
   padding: 10% 0 0 14.5%;
@@ -123,17 +144,20 @@ body {
   color: #FFF;
 }
 
+/* 30 */
 .banner .cont-banner-text .banner__heading {
   margin-bottom: 30px;
   font-size: 2.75rem;
   font-weight: 700;
 }
 
+/* 30 */
 .banner .cont-banner-text .banner-text {
   font-size: 0.875rem;
   line-height: 20px;
 }
 
+/* 30 */
 .banner .cont-banner-text .card-btn {
   margin-top: 30px;
   display: block;
@@ -142,15 +166,18 @@ body {
   color: #FFF;
 }
 
+/* 20 */
 .banner .banner__img {
   width: 100%;
 }
 
+/* 10 */
 .offers {
   padding: 80px 14.5% 100px;
   background-color: #EFEFEF;
 }
 
+/* 20 */
 .offers .offers__heading {
   font-size: 1.5rem;
   font-weight: 700;
@@ -158,6 +185,7 @@ body {
   margin-bottom: 38px;
 }
 
+/* 20 */
 .offers .goods__item {
   float: right;
   width: 22%;
@@ -167,26 +195,31 @@ body {
   margin-left: 4%;
 }
 
+/* 30 */
 .offers .goods__item .item-img {
   margin-bottom: 20px;
 }
 
+/* 30 */
 .offers .goods__item .item-name {
   font-size: 0.875rem;
   line-height: 19.688px;
   margin-bottom: 20px;
 }
 
+/* 40 */
 .offers .goods__item .item-name .product {
   color: #333;
 }
 
+/* 30 */
 .offers .goods__item .item-price {
   font-size: 1.3125rem;
   font-weight: 500;
   letter-spacing: 1.05px;
 }
 
+/* 30 */
 .offers .goods__item .item-btn {
   display: inline;
   width: 75%;
@@ -199,18 +232,22 @@ body {
   letter-spacing: 0.7px;
 }
 
+/* 30 */
 .offers .goods__item:nth-child(4) {
   margin: 0;
 }
 
+/* 10 */
 .card-container {
   padding: 0 14.5%;
 }
 
+/* 20 */
 .card-container .card-main {
   margin-bottom: 100px;
 }
 
+/* 30 */
 .card-container .card-main .card-body {
   float: left;
   width: 48%;
@@ -218,12 +255,14 @@ body {
   padding: 35px 0 35px 3%;
 }
 
+/* 40 */
 .card-container .card-main .card-body .text-container {
   display: inline-block;
   color: #FFF;
   width: 48%;
 }
 
+/* 50 */
 .card-container .card-main .card-body .text-container .card__title {
   display: block;
   font-size: 1.125rem;
@@ -231,6 +270,7 @@ body {
   margin-bottom: 25px;
 }
 
+/* 50 */
 .card-container .card-main .card-body .text-container .card__text {
   display: block;
   font-size: 0.875rem;
@@ -239,6 +279,7 @@ body {
   margin-bottom: 25px;
 }
 
+/* 50 */
 .card-container .card-main .card-body .text-container .card__input {
   width: 100%;
   padding: 9px 12%;
@@ -247,22 +288,26 @@ body {
   border: 2px solid #F13C6E;
 }
 
+/* 40 */
 .card-container .card-main .card-body .svg-container {
   float: right;
   width: 35%;
   text-align: center;
 }
 
+/* 50 */
 .card-container .card-main .card-body .svg-container .svg-container__img {
   width: 70%;
 }
 
+/* 30 */
 .card-container .card-main .card-body--mod {
   float: right;
   padding: 35px 3%;
   margin-left: 3%;
 }
 
+/* 40 */
 .card-container .card-main .card-body--mod .card__button {
   width: 75%;
   padding: 9px 5%;
@@ -273,18 +318,22 @@ body {
   border: 2px solid #FFF;
 }
 
+/* 40 */
 .card-container .card-main .card-body--mod .svg-container--mod {
   width: 50%;
 }
 
+/* 50 */
 .card-container .card-main .card-body--mod .svg-container--mod .svg-container__img {
   width: 100%;
 }
 
+/* 20 */
 .card-container .card-addition {
   background-color: #FFF;
 }
 
+/* 30 */
 .card-container .card-addition .card-item {
   width: 25%;
   float: left;
@@ -293,25 +342,30 @@ body {
   text-align: center;
 }
 
+/* 41 */
 .card-container .card-addition .card-item .card-item img {
   width: 100%;
 }
 
+/* 10 */
 .footer {
   background-color: #FFF;
 }
 
+/* 20 */
 .footer .categories {
   padding: 60px 14.5%;
   border-bottom: 1px solid #EFEFEF;
 }
 
+/* 30 */
 .footer .categories .categories-card {
   float: right;
   width: 22%;
   margin-left: 4%;
 }
 
+/* 40 */
 .footer .categories .categories-card .categories__heading {
   width: 46%;
   color: #000;
@@ -320,47 +374,54 @@ body {
   padding-bottom: 55px;
 }
 
+/* 40 */
 .footer .categories .categories-card .categories__link {
   color: #828282;
   line-height: 28px;
   font-size: 0.75rem;
 }
 
+/* 50 */
 .footer .categories .categories-card .categories__item:hover {
   text-decoration: underline;
 }
 
+/* 30 */
 .footer .categories .categories-card--mod {
   margin-left: 0;
 }
 
+/* 20 */
 .footer .socials {
   padding: 20px 14.5%;
 }
 
+/* 30 */
 .footer .socials .social__link {
   float: left;
   margin-top: 20px;
   margin-right: 1.5%;
 }
 
+/* 20 */
 .footer .about {
   background-color: #EFEFEF;
   padding: 25px 14.5%;
 }
 
+/* 30 */
 .footer .about .rights {
   float: left;
 }
 
+/* 30 */
 .footer .about .privacy {
   float: right;
 }
 
+/* 30 */
 .footer .about .rights__link,
 .footer .about .privacy__link {
   font-size: 0.75rem;
   color: #828282;
 }
-
-/*# sourceMappingURL=style.css.map */
