@@ -1,0 +1,50 @@
+.offers{
+    padding: 80px 14.5% 100px;
+    
+    .offers__heading {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: $add-color;
+        margin-bottom: 38px;
+    }
+    
+    .goods {
+        @include flex(row, space-between, center);
+        gap: 30px;
+        
+        .goods__item {
+            @include flex(column, center, center);
+            background-color: $main-color;
+            text-align: center;
+            padding: 25px 3.4% 25px;
+
+            .item-img {
+                margin-bottom: 20px;
+            }
+            
+            .item-name {
+                font-size: $accent-fs;
+                line-height: 19.688px;
+                margin-bottom: 20px;
+
+                .product {
+                    color: $aux-color;
+                }
+            }
+            .item-price {
+                font-size: 1.3125rem;
+                font-weight: 500;
+                letter-spacing: 1.05px;
+            }
+            .item-btn {
+                background-color: $accent-color;
+                color: $main-color;
+                font-size: $accent-fs;
+                margin-top: 20px;
+                letter-spacing: 0.7px;
+                padding: 9px 20%;
+                width: 130px;
+            }
+        }
+    }
+}

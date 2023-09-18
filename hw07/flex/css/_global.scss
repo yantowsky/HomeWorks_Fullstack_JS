@@ -1,0 +1,67 @@
+// VARIABLE
+$accent-color: #F13C6E;
+$main-color: #FFF;
+$primary-color: #EFEFEF;
+$add-color: #000;
+$aux-color: #333;
+$spec-color: #828282;
+
+$accent-fs: 0.875rem;
+$primary-fs: 0.75rem;
+
+$accent-bord: 2px solid;
+
+// RESET
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    outline: none;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+    background-color: $primary-color;
+}
+
+.menu,
+.flex-center {
+    @include flex(row, center, center);
+}
+
+.btn {
+    border: $accent-bord;
+    border-radius: 40px;
+    padding: 12px 26px;
+    width: 170px;
+    font-size: $accent-fs;
+}
+
+.btn.btn-link {
+    color: $main-color;
+}
+
+.call {
+    gap: 40px;
+
+    .call__link {
+        color: $add-color;
+    }
+
+    .call-btn {
+        background-color: $main-color;
+        border-color: $accent-color;
+    }
+}

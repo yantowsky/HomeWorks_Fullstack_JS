@@ -1,0 +1,91 @@
+.card-container {
+    padding: 0 14.5%;
+
+    .card-main {
+        @include flex(row, space-between, stretch);
+        gap: 30px;
+        margin-bottom: 100px;
+
+        .card-body {
+            @include flex(row, space-between, center);
+            background-color: $accent-color;
+            padding: 35px 4% 35px;
+            width: 90%;
+
+            .text-container {
+                @include flex(column, flex-start, flex-start);
+                color: $main-color;
+
+                .card__title {
+                    font-weight: 700;
+                    font-size: 1.125rem;
+                    margin-bottom: 25px;
+                }
+
+                .card__text {
+                    font-size: $accent-fs;
+                    line-height: 19.688px;
+                    width: 60%;
+                    margin-bottom: 25px;
+                }
+
+                .card__input {
+                    width: 95%;
+                    padding: 9px 5%;
+                    font-size: $accent-fs;
+                    border-radius: 30px;
+                    border: $accent-bord $accent-color;
+                }
+
+                .card__button {
+                    width: 80%;
+                    padding: 9px 5%;
+                    font-size: $accent-fs;
+                    background-color: $accent-color;
+                    color: $main-color;
+                    border-radius: 30px;
+                    border: $accent-bord $main-color;
+
+                }
+            }
+
+            .svg-container {
+                @include flex(row, flex-end, center);
+                width: 30%;
+
+                .svg-container__img {
+                    width: 100%;
+                }
+            }
+
+            .svg-container--mod {
+                @include flex(row, flex-end, center);
+                width: 40%;
+
+                .svg-container__img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .card-addition {
+        background-color: $main-color;
+
+        .card-row {
+            @include flex(row, space-around, center);
+            border: 1px solid $primary-color;
+
+            .card-item {
+                width: 100%;
+                padding: 35px 5%;
+                border-right: 1px solid $primary-color;
+                text-align: center;
+            }
+
+            .card-item img {
+                width: 100%;
+            }
+        }
+    }
+}

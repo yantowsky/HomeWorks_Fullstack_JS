@@ -1,0 +1,68 @@
+// Header
+
+.header {
+    background-color: $main-color;
+}
+
+    .menu-top {
+        background-color: $primary-color;
+
+        .nav {
+            gap: 30px;
+
+            .nav__item {
+                padding: 17px 1% 16px;
+
+                .nav__link {
+                    color: $aux-color;
+                    font-size: $accent-fs;
+                }
+            }
+        }
+    }
+
+    .menu-second {
+        border-top: 1px solid $primary-color;
+        background-color: $main-color;
+
+        .nav {
+            gap: 40px;
+
+            .nav__item {
+                padding: 30px 1.5%;
+
+                .nav__link {
+                    color: $add-color;
+                }
+            }
+        }
+    }
+
+.nav {
+    display: flex;
+}
+
+.nav__item:hover {
+    text-decoration: underline;
+}
+
+// Sides
+.sides {
+    @include flex(row, space-between, center);
+    padding: 20px 14.5%;
+    background-color: $main-color;
+
+    .logo {
+        gap: 20px;
+    }
+
+    .logo-name {
+        font-size: 2.25rem;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 3.6px;
+        text-align: left;
+        color: $accent-color;
+        text-transform: uppercase;
+    }
+}

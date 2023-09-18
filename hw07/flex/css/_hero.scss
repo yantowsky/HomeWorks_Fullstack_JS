@@ -1,0 +1,34 @@
+.banner {
+    @include flex (row, space-between, center);
+    img.banner {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+    }
+    .cont-banner-text {
+        width: 36%;
+        @include flex(column, flex-start, flex-start);
+        gap: 30px;
+        padding-left: 14.5%;
+        color: $main-color;
+        position: absolute;
+        z-index: 2;
+        
+        .banner-text {
+            font-size: $accent-fs;
+            line-height: 20px;
+        }
+    
+        .banner__heading {
+            font-size: 2.75rem;
+            font-weight: 700;
+        }
+    
+        .card-btn {
+            background-color: $accent-color;
+            border-color: $main-color;
+            color: $main-color;
+        }
+    }
+}
+

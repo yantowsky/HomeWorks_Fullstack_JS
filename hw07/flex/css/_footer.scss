@@ -1,0 +1,58 @@
+.footer {
+    background-color: $main-color;
+
+    .categories {
+        @include flex(row, space-between, flex-start);
+        padding: 60px 14.5%;
+        border-bottom: 1px solid $primary-color;
+        gap: 30px;
+
+        .categories__item {
+            @include flex(column, flex-start, flex-start);
+            width: 100%;
+
+            .categories__heading {
+                width: 46%;
+                color: $add-color;
+                font-weight: 500;
+                line-height: 22.5px;
+                padding-bottom: 55px;
+            }
+
+            .categories__nav {
+                font-size: $primary-fs;
+
+                .categories__link {
+                    color: $spec-color;
+                    line-height: 28px;
+                }
+
+                .categories__item:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .socials {
+        @include flex(row, space-between, center);
+        padding: 37px 14.5% 38px;
+
+        .social__nav {
+            @include flex(row, space-between, center);
+            gap: 20px;
+        }
+    }
+
+    .about {
+        @include flex(row, space-between, center);
+        background-color: $primary-color;
+        padding: 25px 14.5%;
+        font-size: $primary-fs;
+
+        .rights__link,
+        .privacy__link {
+            color: $spec-color;
+        }
+    }
+}
