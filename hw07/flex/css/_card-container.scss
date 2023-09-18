@@ -1,105 +1,122 @@
-.card-container {
-    padding: 0 14.5%;
+    // формування бокового відступу, який дорівнює відступу других елементів
+    .card-container {
+        padding: 0 14.5%;
 
-    .card-main {
-        @include flex(row, space-between, stretch);
-        gap: 30px;
-        margin-bottom: 100px;
+        // позиціювання двух елементів card-body, відступ між ними, вілступ з низу після ціх елементів
+        .card-main {
+            @include flex(row, space-between, stretch);
+            gap: 30px;
+            margin-bottom: 100px;
 
-        .card-body {
-            @include flex(row, space-between, center);
-            background-color: $accent-color;
-            padding: 35px 4% 35px;
-            width: 90%;
+            // позиціювання елементів всередені цього елемента, колір фону, внутрешні відступи, ширина елементу
+            .card-body {
+                @include flex(row, space-between, center);
+                background-color: $accent-color;
+                padding: 35px 4% 35px;
+                width: 90%;
 
-            .text-container {
-                @include flex(column, flex-start, flex-start);
-                color: $main-color;
+                // позиціювання текстових елементів та колір самого тексту
+                .text-container {
+                    @include flex(column, flex-start, flex-start);
+                    color: $main-color;
 
-                .card__title {
-                    font-weight: 700;
-                    font-size: 1.125rem;
-                    margin-bottom: 25px;
-                }
+                    // стиль тексту в заголовку (розмір та вага шрифта, нижній відступ до слідуючого елементу
+                    .card__title {
+                        font-size: 1.125rem;
+                        font-weight: 700;
+                        margin-bottom: 25px;
+                    }
 
-                .card__text {
-                    font-size: $accent-fs;
-                    line-height: 19.688px;
-                    width: 60%;
-                    margin-bottom: 25px;
-                }
-
-                .card__input {
-                    width: 95%;
-                    padding: 9px 5%;
-                    font-size: $accent-fs;
-                    border-radius: 30px;
-                    border: $accent-bord $accent-color;
-                }
-
-                .card__button__link {
-                    width: 100%;
-
-                    .card__button {
-                        width: 80%;
-                        padding: 9px 5%;
-                        border-radius: 30px;
+                    // стиль основного тексу (розмір шрифта, ввввідступ між рядками, ширина колонки, нижній відступ до слідуючого елементу)
+                    .card__text {
                         font-size: $accent-fs;
-                        background-color: $accent-color;
-                        color: $main-color;
-                        border: $accent-bord $main-color;
-                    }
-                    
-                    .card__button:hover {
-                        box-shadow: 0 6px 10px #130f0f, inset 0 1px 0 #070505;
-                        opacity: 0.7;
+                        line-height: 19.688px;
+                        width: 60%;
+                        margin-bottom: 25px;
                     }
 
-                    .card__button:active {
-                        background-color: $main-color;
-                        color: $accent-color;
-                        opacity: 1;
+                    // стиль елемента для вводу e-mail (ширина, внутрішні відстцпи, розсфір шрифта, обрамовування)
+                    .card__input {
+                        width: 95%;
+                        padding: 9px 5%;
+                        font-size: $accent-fs;
+                        border-radius: 30px;
+                        border: $accent-bord $accent-color;
+                    }
+
+                    // для формування ширини кнопки Store map
+                    .card__button__link {
+                        width: 100%;
+
+                        // формування стилю кнопки  (ширина, внутрішні відуступи, обрамлення, розмір шрифта, колір фону, колір шрифта
+                        .card__button {
+                            width: 80%;
+                            padding: 9px 5%;
+                            border-radius: 30px;
+                            border: $accent-bord $main-color;
+                            font-size: $accent-fs;
+                            background-color: $accent-color;
+                            color: $main-color;
+                        }
+
+                        // дія кнопки Store map при наведенні (додання тіні та прозорість)
+                        .card__button:hover {
+                            box-shadow: 0 6px 10px #130f0f, inset 0 1px 0 #070505;
+                            opacity: 0.7;
+                        }
+
+                        // дія кнопки Store map при натисканні (кольори фону та шрифта,  відключення прозорісті)
+                        .card__button:active {
+                            background-color: $main-color;
+                            color: $accent-color;
+                            opacity: 1;
+                        }
+                    }
+                }
+
+                // ширина контейнеру для зображення
+                .svg-container {
+                    width: 30%;
+
+                    // ширина зображення
+                    .svg-container__img {
+                        width: 100%;
+                    }
+                }
+
+                // ширина модіфікованного контейнеру для зображення
+                .svg-container--mod {
+                    width: 40%;
+
+                    // ширина зображення
+                    .svg-container__img {
+                        width: 100%;
                     }
                 }
             }
+        }
 
-            .svg-container {
-                @include flex(row, flex-end, center);
-                width: 30%;
+        // фон для елементів card-item
+        .card-addition {
+            background-color: $main-color;
 
-                .svg-container__img {
+            // позіціювання елементів card-item, додання горізонтальной лінії між елементами card-item
+            .card-row {
+                @include flex(row, space-around, center);
+                border: 1px solid $primary-color;
+
+                //формування стилю елементів (ширина, внутришній відступ, додання вертиякальной лінії між елементами card-item, центрування зображеняя)
+                .card-item {
                     width: 100%;
+                    padding: 35px 5%;
+                    border-right: 1px solid $primary-color;
+                    text-align: center;
                 }
-            }
 
-            .svg-container--mod {
-                @include flex(row, flex-end, center);
-                width: 40%;
-
-                .svg-container__img {
+                // ширина зображення
+                .card-item img {
                     width: 100%;
                 }
             }
         }
     }
-
-    .card-addition {
-        background-color: $main-color;
-
-        .card-row {
-            @include flex(row, space-around, center);
-            border: 1px solid $primary-color;
-
-            .card-item {
-                width: 100%;
-                padding: 35px 5%;
-                border-right: 1px solid $primary-color;
-                text-align: center;
-            }
-
-            .card-item img {
-                width: 100%;
-            }
-        }
-    }
-}

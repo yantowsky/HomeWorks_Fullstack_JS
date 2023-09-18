@@ -1,3 +1,4 @@
+// додання варіантів flex для позиціювання
 @mixin flex($dir, $jc, $ai) {
     display: flex;
     flex-direction: $dir;
