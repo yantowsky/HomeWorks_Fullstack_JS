@@ -48,6 +48,10 @@ body {
     width: 170px;
     font-size: $accent-fs;
 }
+.btn:hover {
+    box-shadow: 0 6px 10px #130f0f, inset 0 1px 0 #070505;
+    opacity: 0.7;
+}
 
 .btn.btn-link {
     color: $main-color;
@@ -63,5 +67,11 @@ body {
     .call-btn {
         background-color: $main-color;
         border-color: $accent-color;
+    }
+    .call-btn:active {
+        background-color: $accent-color;
+        border-color: $main-color;
+        color: $main-color;
+        opacity: 1;
     }
 }

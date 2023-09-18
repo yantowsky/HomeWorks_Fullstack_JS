@@ -37,15 +37,31 @@
                     border: $accent-bord $accent-color;
                 }
 
-                .card__button {
-                    width: 80%;
-                    padding: 9px 5%;
-                    font-size: $accent-fs;
-                    background-color: $accent-color;
-                    color: $main-color;
-                    border-radius: 30px;
-                    border: $accent-bord $main-color;
+                .card__button__link {
+                    width: 100%;
 
+                    .card__button {
+                        width: 80%;
+                        padding: 9px 5%;
+                        border-radius: 30px;
+                        font-size: $accent-fs;
+                        background-color: $accent-color;
+                        color: $main-color;
+                        border: $accent-bord $main-color;
+                    }
+
+
+
+                    .card__button:hover {
+                        box-shadow: 0 6px 10px #130f0f, inset 0 1px 0 #070505;
+                        opacity: 0.7;
+                    }
+
+                    .card__button:active {
+                        background-color: $main-color;
+                        color: $accent-color;
+                        opacity: 1;
+                    }
                 }
             }
 

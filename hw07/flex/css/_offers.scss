@@ -45,6 +45,11 @@
                 padding: 9px 20%;
                 width: 130px;
             }
+            .item-btn:active {
+                background-color: $main-color;
+                color: $accent-color;
+                opacity: 1;
+            }
         }
     }
 }

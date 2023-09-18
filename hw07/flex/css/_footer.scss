@@ -7,7 +7,7 @@
         border-bottom: 1px solid $primary-color;
         gap: 30px;
 
-        .categories__item {
+        .categories-card {
             @include flex(column, flex-start, flex-start);
             width: 100%;
 

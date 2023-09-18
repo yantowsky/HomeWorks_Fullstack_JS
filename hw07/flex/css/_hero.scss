@@ -29,6 +29,12 @@
             border-color: $main-color;
             color: $main-color;
         }
+        .card-btn:active {
+            background-color: $main-color;
+            border-color: $accent-color;
+            color: $accent-color;
+            opacity: 1;
+        }
     }
 }
 

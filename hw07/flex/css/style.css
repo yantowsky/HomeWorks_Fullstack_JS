@@ -37,6 +37,11 @@ body {
   font-size: 0.875rem;
 }
 
+.btn:hover {
+  box-shadow: 0 6px 10px #130f0f, inset 0 1px 0 #070505;
+  opacity: 0.7;
+}
+
 .btn.btn-link {
   color: #FFF;
 }
@@ -50,6 +55,12 @@ body {
 .call .call-btn {
   background-color: #FFF;
   border-color: #F13C6E;
+}
+.call .call-btn:active {
+  background-color: #F13C6E;
+  border-color: #FFF;
+  color: #FFF;
+  opacity: 1;
 }
 
 .header {
@@ -149,6 +160,12 @@ body {
   border-color: #FFF;
   color: #FFF;
 }
+.banner .cont-banner-text .card-btn:active {
+  background-color: #FFF;
+  border-color: #F13C6E;
+  color: #F13C6E;
+  opacity: 1;
+}
 
 .offers {
   padding: 80px 14.5% 100px;
@@ -200,6 +217,11 @@ body {
   padding: 9px 20%;
   width: 130px;
 }
+.offers .goods .goods__item .item-btn:active {
+  background-color: #FFF;
+  color: #F13C6E;
+  opacity: 1;
+}
 
 .card-container {
   padding: 0 14.5%;
@@ -246,14 +268,26 @@ body {
   border-radius: 30px;
   border: 2px solid #F13C6E;
 }
-.card-container .card-main .card-body .text-container .card__button {
+.card-container .card-main .card-body .text-container .card__button__link {
+  width: 100%;
+}
+.card-container .card-main .card-body .text-container .card__button__link .card__button {
   width: 80%;
   padding: 9px 5%;
+  border-radius: 30px;
   font-size: 0.875rem;
   background-color: #F13C6E;
   color: #FFF;
-  border-radius: 30px;
   border: 2px solid #FFF;
+}
+.card-container .card-main .card-body .text-container .card__button__link .card__button:hover {
+  box-shadow: 0 6px 10px #130f0f, inset 0 1px 0 #070505;
+  opacity: 0.7;
+}
+.card-container .card-main .card-body .text-container .card__button__link .card__button:active {
+  background-color: #FFF;
+  color: #F13C6E;
+  opacity: 1;
 }
 .card-container .card-main .card-body .svg-container {
   display: flex;
@@ -307,28 +341,28 @@ body {
   border-bottom: 1px solid #EFEFEF;
   gap: 30px;
 }
-.footer .categories .categories__item {
+.footer .categories .categories-card {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
 }
-.footer .categories .categories__item .categories__heading {
+.footer .categories .categories-card .categories__heading {
   width: 46%;
   color: #000;
   font-weight: 500;
   line-height: 22.5px;
   padding-bottom: 55px;
 }
-.footer .categories .categories__item .categories__nav {
+.footer .categories .categories-card .categories__nav {
   font-size: 0.75rem;
 }
-.footer .categories .categories__item .categories__nav .categories__link {
+.footer .categories .categories-card .categories__nav .categories__link {
   color: #828282;
   line-height: 28px;
 }
-.footer .categories .categories__item .categories__nav .categories__item:hover {
+.footer .categories .categories-card .categories__nav .categories__item:hover {
   text-decoration: underline;
 }
 .footer .socials {
