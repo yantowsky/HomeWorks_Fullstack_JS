@@ -62,44 +62,39 @@ body {
 .header {
   background-color: #FFF;
 }
-
-.menu-top {
+.header .menu-top {
   background-color: #EFEFEF;
 }
-.menu-top .nav {
+.header .menu-top .nav {
   gap: 30px;
 }
-.menu-top .nav .nav__item {
-  padding: 17px 1% 16px;
+.header .menu-top .nav .nav__item {
+  padding: 17px 0 16px;
 }
-.menu-top .nav .nav__item .nav__link {
+.header .menu-top .nav .nav__item .nav__link {
   color: #333;
   font-size: 0.875rem;
 }
-
-.menu-second {
+.header .menu-second {
   border-top: 1px solid #EFEFEF;
   background-color: #FFF;
 }
-.menu-second .nav {
+.header .menu-second .nav {
   gap: 40px;
 }
-.menu-second .nav .nav__item {
-  padding: 30px 1.5%;
+.header .menu-second .nav .nav__item {
+  padding: 30px 0;
 }
-.menu-second .nav .nav__item .nav__link {
+.header .menu-second .nav .nav__item .nav__link {
   color: #000;
 }
-
-.nav {
+.header .nav {
   display: flex;
 }
-
-.nav__item:hover {
+.header .nav__item:hover {
   text-decoration: underline;
 }
-
-.sides {
+.header .sides {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -107,15 +102,13 @@ body {
   padding: 20px 14.5%;
   background-color: #FFF;
 }
-.sides .logo {
+.header .sides .logo {
   gap: 20px;
 }
-.sides .logo-name {
+.header .sides .logo-name {
   font-size: 2.25rem;
   font-weight: 700;
-  line-height: 42px;
   letter-spacing: 3.6px;
-  text-align: left;
   color: #F13C6E;
   text-transform: uppercase;
 }

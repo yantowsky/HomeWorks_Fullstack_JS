@@ -1,18 +1,20 @@
-// Header
-
+// колір фону для всьго елементу header
 .header {
     background-color: $main-color;
-}
 
+    // колір фону для верхьої частини меню header
     .menu-top {
         background-color: $primary-color;
 
+        // бокові відступи між назвами посилань в верхньому меню header
         .nav {
             gap: 30px;
 
+            // внутрішній відступ зверху та знизу на назвах посилань в верхньому меню header
             .nav__item {
-                padding: 17px 1% 16px;
+                padding: 17px 0 16px;
 
+                //колір та розмір шрифта назв посилань в верхньому меню header
                 .nav__link {
                     color: $aux-color;
                     font-size: $accent-fs;
@@ -21,16 +23,20 @@
         }
     }
 
+    // задавання коліру фону для нижнього меню в header та відокремелля його в середнього меню смугою
     .menu-second {
         border-top: 1px solid $primary-color;
         background-color: $main-color;
 
+        // бокові відступи між назвами посилань в нижньому меню header
         .nav {
             gap: 40px;
 
+            // внутрішній відступ зверху та знизу на назвах посилань в нижньому меню header
             .nav__item {
-                padding: 30px 1.5%;
+                padding: 30px 0;
 
+                // колір шрифта назв посилань в нижньому меню header
                 .nav__link {
                     color: $add-color;
                 }
@@ -38,31 +44,32 @@
         }
     }
 
-.nav {
-    display: flex;
-}
-
-.nav__item:hover {
-    text-decoration: underline;
-}
-
-// Sides
-.sides {
-    @include flex(row, space-between, center);
-    padding: 20px 14.5%;
-    background-color: $main-color;
-
-    .logo {
-        gap: 20px;
+    .nav {
+        display: flex;
     }
 
-    .logo-name {
-        font-size: 2.25rem;
-        font-weight: 700;
-        line-height: 42px;
-        letter-spacing: 3.6px;
-        text-align: left;
-        color: $accent-color;
-        text-transform: uppercase;
+    // дія при наведенні на назву посилання в верхньому та нижньому меню header
+    .nav__item:hover {
+        text-decoration: underline;
+    }
+
+    // розміщення, колір фону та внутришній відступ для елементів в середньому меню header - sides
+    .sides {
+        @include flex(row, space-between, center);
+        padding: 20px 14.5%;
+        background-color: $main-color;
+
+        // відступ між лого та назвою BEAUTY в sides
+        .logo {
+            gap: 20px;
+        }
+        //індивідуальна стилистика шрифта назви BEAUTY (розмір, вага, відступ між літерами, колір, заглавні літери)
+        .logo-name {
+            font-size: 2.25rem; 
+            font-weight: 700;
+            letter-spacing: 3.6px;
+            color: $accent-color;
+            text-transform: uppercase;
+        }
     }
 }
