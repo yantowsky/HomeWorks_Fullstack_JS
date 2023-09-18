@@ -1,4 +1,4 @@
-// VARIABLE
+// группування стилів, які часто повторюються
 $accent-color: #F13C6E;
 $main-color: #FFF;
 $primary-color: #EFEFEF;
@@ -11,8 +11,7 @@ $primary-fs: 0.75rem;
 
 $accent-bord: 2px solid;
 
-// RESET
-
+// аналог reset.scc
 * {
     margin: 0;
     padding: 0;
@@ -31,16 +30,19 @@ html {
     font-size: 16px;
 }
 
+//  колір фону та розмір шрифта за замовчуванням
 body {
     font-size: 1rem;
     background-color: $primary-color;
 }
 
+//позіціінування основних елементів
 .menu,
 .flex-center {
     @include flex(row, center, center);
 }
 
+// стиль кнопки за замовчуванням
 .btn {
     border: $accent-bord;
     border-radius: 40px;
@@ -48,26 +50,27 @@ body {
     width: 170px;
     font-size: $accent-fs;
 }
+
+// дія кнопки за замовчування при наведенні
 .btn:hover {
     box-shadow: 0 6px 10px #130f0f, inset 0 1px 0 #070505;
     opacity: 0.7;
 }
 
-.btn.btn-link {
-    color: $main-color;
-}
-
+// відступ кнопки Call Back від номера тел.
 .call {
     gap: 40px;
 
+    //колір шрифта для номера тел.
     .call__link {
         color: $add-color;
     }
-
+    //коліри фону та обромлення кнопки Call Back
     .call-btn {
         background-color: $main-color;
         border-color: $accent-color;
     }
+    //дія кнопки Call Back при активації
     .call-btn:active {
         background-color: $accent-color;
         border-color: $main-color;
