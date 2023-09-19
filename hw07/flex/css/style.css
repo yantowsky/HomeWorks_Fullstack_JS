@@ -336,14 +336,12 @@ body {
   line-height: 22.5px;
   padding-bottom: 55px;
 }
-.footer .categories .categories-card .categories__nav {
+.footer .categories .categories-card .categories__link {
   font-size: 0.75rem;
-}
-.footer .categories .categories-card .categories__nav .categories__link {
   color: #828282;
   line-height: 28px;
 }
-.footer .categories .categories-card .categories__nav .categories__item:hover {
+.footer .categories .categories-card .categories__item:hover {
   text-decoration: underline;
 }
 .footer .socials {

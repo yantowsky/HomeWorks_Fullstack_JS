@@ -1,16 +1,20 @@
+// загальний колір фону для нижньої частини сайту
 .footer {
     background-color: $main-color;
 
+    // розміщення елементів, відстип елемента зверху та з лівого боку, нижняя роздільна лінія, відстув між блоками всередені
     .categories {
         @include flex(row, space-between, flex-start);
         padding: 60px 14.5%;
         border-bottom: 1px solid $primary-color;
         gap: 30px;
 
+        // резміщення едементів з текстом всрередені блоку categories+
         .categories-card {
             @include flex(column, flex-start, flex-start);
             width: 100%;
 
+            // стилізація заголовка (обмеження ширини, колір та вага шривту, відступ між рядками, нижній відстип з слідуючим елементом)
             .categories__heading {
                 width: 46%;
                 color: $add-color;
@@ -19,37 +23,39 @@
                 padding-bottom: 55px;
             }
 
-            .categories__nav {
+            // розмір шрифта тексту з посиланнями, колір шрифту, відступ між рядками
+            .categories__link {
                 font-size: $primary-fs;
-
-                .categories__link {
-                    color: $spec-color;
-                    line-height: 28px;
-                }
-
-                .categories__item:hover {
-                    text-decoration: underline;
-                }
+                color: $spec-color;
+                line-height: 28px;
             }
+
+            // підкреслення при наведенні на посилання
+            .categories__item:hover {
+                text-decoration: underline;
+            }
+
         }
     }
 
+    // розміщення елементів в середньому розділі в footer
     .socials {
         @include flex(row, space-between, center);
         padding: 37px 14.5% 38px;
 
+        // розміщення іконок соцмереж, відступ між іконками
         .social__nav {
             @include flex(row, space-between, center);
             gap: 20px;
         }
     }
-
+    // розміщення елементів в нижній частині footer, колір фону нижньої частини footer, внутрішній відступ тексту, розмір тексту
     .about {
         @include flex(row, space-between, center);
         background-color: $primary-color;
         padding: 25px 14.5%;
         font-size: $primary-fs;
-
+        //колір тесту в нижній частині footer
         .rights__link,
         .privacy__link {
             color: $spec-color;
