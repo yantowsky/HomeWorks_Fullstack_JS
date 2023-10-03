@@ -44,34 +44,30 @@
                         border: $accent-bord $accent-color;
                     }
 
-                    // для формування ширини кнопки Store map
-                    .card__button__link {
-                        width: 100%;
-
-                        // формування стилю кнопки  (ширина, внутрішні відуступи, обрамлення, розмір шрифта, колір фону, колір шрифта
-                        .card__button {
-                            width: 80%;
-                            padding: 9px 5%;
-                            border-radius: 30px;
-                            border: $accent-bord $main-color;
-                            font-size: $accent-fs;
-                            background-color: $accent-color;
-                            color: $main-color;
-                        }
-
-                        // дія кнопки Store map при наведенні (додання тіні та прозорість)
-                        .card__button:hover {
-                            box-shadow: 0 6px 10px #130f0f, inset 0 1px 0 #070505;
-                            opacity: 0.7;
-                        }
-
-                        // дія кнопки Store map при натисканні (кольори фону та шрифта,  відключення прозорісті)
-                        .card__button:active {
-                            background-color: $main-color;
-                            color: $accent-color;
-                            opacity: 1;
-                        }
+                    // формування стилю кнопки  (ширина, внутрішні відуступи, обрамлення, розмір шрифта, колір фону, колір шрифта
+                    .card__button {
+                        width: 170px;
+                        padding: 9px 5%;
+                        border-radius: 30px;
+                        border: $accent-bord $main-color;
+                        font-size: $accent-fs;
+                        background-color: $accent-color;
+                        color: $main-color;
                     }
+
+                    // дія кнопки Store map при наведенні (додання тіні та прозорість)
+                    .card__button:hover {
+                        box-shadow: 0 6px 10px #130f0f, inset 0 1px 0 #070505;
+                        opacity: 0.7;
+                    }
+
+                    // дія кнопки Store map при натисканні (кольори фону та шрифта,  відключення прозорісті)
+                    .card__button:active {
+                        background-color: $main-color;
+                        color: $accent-color;
+                        opacity: 1;
+                    }
+
                 }
 
                 // ширина контейнеру для зображення

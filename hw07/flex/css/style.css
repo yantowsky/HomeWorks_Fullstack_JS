@@ -257,11 +257,8 @@ body {
   border-radius: 30px;
   border: 2px solid #F13C6E;
 }
-.card-container .card-main .card-body .text-container .card__button__link {
-  width: 100%;
-}
-.card-container .card-main .card-body .text-container .card__button__link .card__button {
-  width: 80%;
+.card-container .card-main .card-body .text-container .card__button {
+  width: 170px;
   padding: 9px 5%;
   border-radius: 30px;
   border: 2px solid #FFF;
@@ -269,11 +266,11 @@ body {
   background-color: #F13C6E;
   color: #FFF;
 }
-.card-container .card-main .card-body .text-container .card__button__link .card__button:hover {
+.card-container .card-main .card-body .text-container .card__button:hover {
   box-shadow: 0 6px 10px #130f0f, inset 0 1px 0 #070505;
   opacity: 0.7;
 }
-.card-container .card-main .card-body .text-container .card__button__link .card__button:active {
+.card-container .card-main .card-body .text-container .card__button:active {
   background-color: #FFF;
   color: #F13C6E;
   opacity: 1;
